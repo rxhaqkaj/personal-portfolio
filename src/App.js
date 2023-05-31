@@ -3,6 +3,7 @@ import Header from './components/header/Header';
 import Home from './components/home/Home';
 import About from './components/about/About';
 import Skills from './components/skills/Skills';
+import Services from './components/services/Services';
 
 const App = () => {
   return (
@@ -12,24 +13,7 @@ const App = () => {
         <Home />  
         <About />
         <Skills/>
-      </main>
-    </>
-  );
-}
-
-export default App;
-import './App.css';
-import Header from './components/header/Header';
-import Home from './components/home/Home';
-import About from './components/about/About';
-
-const App = () => {
-  return (
-    <>
-      <Header />
-      <main className='main'>
-        <Home />  
-        <About />
+        <Services/>
       </main>
     </>
   );

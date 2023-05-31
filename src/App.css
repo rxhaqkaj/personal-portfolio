@@ -46,7 +46,7 @@
   --z-modal: 1000;
 }
 
-  /* Respomsice typography */
+  /* Responsive typography */
 @media screen and (max-width:992px) {
   :root {
     --big-font-size: 2.75rem;
