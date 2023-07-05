@@ -79,7 +79,7 @@
 
 .services__modal__title,
 .services__modal__description {
-    text-align: center;
+    text-align: -webkit-match-parent;
 }
 
 .services__modal__title {

@@ -61,7 +61,9 @@
 }
 
 .qualification__calendar {
+    display: flex;
     font-size: var(--small-font-size);
+    column-gap: 5px;
 }
 
 .qualification__rounder {

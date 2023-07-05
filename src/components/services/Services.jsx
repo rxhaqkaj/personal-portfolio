@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import './services.css'
 
+
 const Services = () => {
 	const [toggleState, setToggleState] = useState(0)
 
@@ -17,7 +18,7 @@ const Services = () => {
 				<div className="services__content">
 					<div className="services__subcontent">
 						<i className='uil uil-web-grid services__icon'></i>
-						<h3 className="services__modal__title">Software <br /> Developer</h3>
+						<h3 className="services__modal__title">Software <br/>Development</h3>
 					</div>
 					<span className="services__button" onClick={() => toggleTab(1)}>View More
 						<i className='uil uil-arrow-right services__button__icon'></i>
@@ -25,25 +26,24 @@ const Services = () => {
 					<div className={toggleState === 1 ? "services__modal active__modal" : "services__modal" }>
 						<div className="services__modal__content">
 							<i onClick={() => toggleTab(0)} className='uil uil-times services__modal__close'></i>
-							<h3 className="services__modal__title">Software <br /> Developer</h3>
-							<p className="services__modal__description"> Service with more than 2 years of experience. Providing quality work to client and companies</p>
+							<h3 className="services__modal__title">Software Developer</h3>
 							<ul className="services__modal__services grid">
 								<li className="services__modal__service">
 									<i className='uil uil-check-circle services__modal__icon'></i>
 									<p className="services__modal__info">
-										I develop ...
+										Crafting efficient software, I enhance user experiences through coding.
 									</p>
 								</li>
 								<li className="services__modal__service">
 									<i className='uil uil-check-circle services__m odal__icon'></i>
 									<p className="services__modal__info">
-										I develop ...
+										Troubleshooting and debugging, I ensure smooth software operation.
 									</p>
 								</li>
 								<li className="services__modal__service">
 									<i className='uil uil-check-circle services__modal__icon'></i>
 									<p className="services__modal__info">
-										I develop ...
+										Building scalable systems, I empower businesses as a software developer.
 									</p>
 								</li>
 							</ul>
@@ -53,7 +53,7 @@ const Services = () => {
 				<div className="services__content">
 					<div className="services__subcontent">
 						<i className='uil uil-arrow services__icon'></i>
-						<h3 className="services__modal__title"> Smth </h3>
+						<h3 className="services__modal__title">Quality <br/>Work</h3>
 					</div>
 					<span className="services__button" onClick={() => toggleTab(2)}>View More
 						<i className='uil uil-arrow-right services__button__icon'></i>
@@ -61,35 +61,34 @@ const Services = () => {
 					<div className={toggleState === 2 ? "services__modal active__modal" : "services__modal" }>
 						<div className="services__modal__content">
 							<i onClick={() => toggleTab(0)} className='uil uil-times services__modal__close'></i>
-							<h3 className="services__modal__title">Software <br /> Developer</h3>
-							<p className="services__modal__description"> Service with more than 2 years of experience. Providing quality work to client and companies</p>
+							<h3 className="services__modal__title">Quality Work</h3>
 							<ul className="services__modal__services grid">
 								<li className="services__modal__service">
 									<i className='uil uil-check-circle services__modal__icon'></i>
 									<p className="services__modal__info">
-										I develop ...
+										Ensuring excellence in every line of code, I provide high-quality software solutions.
 									</p>
 								</li>
 								<li className="services__modal__service">
 									<i className='uil uil-check-circle services__modal__icon'></i>
 									<p className="services__modal__info">
-										I develop ...
+										Delivering top-notch code, I offer unmatched quality as a software developer.
 									</p>
 								</li>
 								<li className="services__modal__service">
 									<i className='uil uil-check-circle services__modal__icon'></i>
 									<p className="services__modal__info">
-										I develop ...
+										Quality is my priority, and I strive for perfection as a software developer.
 									</p>
 								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
-				<div className="services__content">
+				<div className="services__content" >
 					<div className="services__subcontent">
 						<i className='uil uil-edit services__icon'></i>
-						<h3 className="services__modal__title"> Smth else</h3>
+						<h3 className="services__modal__title">Collaborative <br/>Work</h3>
 					</div>
 					<span className="services__button" onClick={() => toggleTab(3)}>View More
 						<i className='uil uil-arrow-right services__button__icon'></i>
@@ -97,25 +96,24 @@ const Services = () => {
 					<div className={toggleState === 3 ? "services__modal active__modal" : "services__modal" }>
 						<div className="services__modal__content">
 							<i onClick={() => toggleTab(0)} className='uil uil-times services__modal__close'></i>
-							<h3 className="services__modal__title">Visual Design</h3>
-							<p className="services__modal__description"> Service with more than 2 years of experience. Providing quality work to client and companies</p>
+							<h3 className="services__modal__title">Collaborative Work</h3>
 							<ul className="services__modal__services grid">
 								<li className="services__modal__service">
 									<i className='uil uil-check-circle services__modal__icon'></i>
 									<p className="services__modal__info">
-										I develop ...
+										Collaborative software developer, driving teamwork and effective communication.
 									</p>
 								</li>
 								<li className="services__modal__service">
 									<i className='uil uil-check-circle services__modal__icon'></i>
 									<p className="services__modal__info">
-										I develop ...
+										Engaged in collaboration, delivering successful projects as a developer.
 									</p>
 								</li>
 								<li className="services__modal__service">
 									<i className='uil uil-check-circle services__modal__icon'></i>
 									<p className="services__modal__info">
-										I develop ...
+										Tech-savvy team player, driving innovation through collaboration.
 									</p>
 								</li>
 							</ul>
